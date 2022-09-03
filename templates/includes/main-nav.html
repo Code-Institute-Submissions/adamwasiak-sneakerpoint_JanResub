@@ -16,11 +16,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 New Sneakers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Nike</a>
-                <a href="" class="dropdown-item">Jordans</a>
-                <a href="" class="dropdown-item">Adidas</a>
-                <a href="" class="dropdown-item">All New Sneakers</a>
+            <div class="dropdown-menu border-0" aria-labelledby="new-sneakers">
+                <a href="{% url 'products' %}?category=nike_new" class="dropdown-item">Nike</a>
+                <a href="{% url 'products' %}?category=jordans_new" class="dropdown-item">Jordans</a>
+                <a href="{% url 'products' %}?category=adidas_new" class="dropdown-item">Adidas</a>
+                <a href="{% url 'products' %}?category=nike_new,jordans_new,adidas_new" class="dropdown-item">All New Sneakers</a>
             </div>
         </li>
 
@@ -28,11 +28,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Second Hand Sneakers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Nike</a>
-                <a href="" class="dropdown-item">Jordans</a>
-                <a href="" class="dropdown-item">Adidas</a>
-                <a href="" class="dropdown-item">All Second Hand Sneakers</a>
+            <div class="dropdown-menu border-0" aria-labelledby="second-hand-sneakers">
+                <a href="{% url 'products' %}?category=nike_used" class="dropdown-item">Nike</a>
+                <a href="{% url 'products' %}?category=jordans_used" class="dropdown-item">Jordans</a>
+                <a href="{% url 'products' %}?category=adidas_used" class="dropdown-item">Adidas</a>
+                <a href="{% url 'products' %}?category=nike_used,jordans_used,adidas_used" class="dropdown-item">All Second Hand Sneakers</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
