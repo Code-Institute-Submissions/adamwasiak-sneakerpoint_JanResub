@@ -19,18 +19,8 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Contact Us</h2>
+                <h2 class="logo-font mb-4">Thank you for your enquiry. We will contact you shortly.</h2>
                 <hr>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <p class="text-muted">Please submit your query below</p>
-                <form class="mt-3" action="{% url 'contact' %}" method="POST" id="profile-update-form">
-                    {% csrf_token %}
-                    {{ form|crispy }}
-                    <button class="btn btn-black rounded-0 text-uppercase float-right">Submit your query</button>
-                </form>
             </div>
         </div>
 {% endblock %}
