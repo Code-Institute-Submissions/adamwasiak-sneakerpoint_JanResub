@@ -20,10 +20,15 @@ body {
 
 .logo-font {
     text-transform: uppercase !important;
+    
 }
 
 .main-logo-link {
     width: fit-content;
+}
+
+h1.display-4.logo-font.text-white {
+    display: flex;
 }
 
 .shop-now-button {
@@ -298,6 +303,20 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
+
+/* Navbar menu aligment*/
+
+@media (max-width: 419px) {
+    .navbar {
+        padding: 0;
+    }
+
+    footer.d-flex {
+        width: 105%;
+    }
+}
+
 
 /* footer styling */
 
