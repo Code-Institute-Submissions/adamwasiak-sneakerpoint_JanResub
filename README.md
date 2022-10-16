@@ -196,6 +196,8 @@ Due to timecontraints the project is deemed to be partially complete. The follow
 
 **8**- user stories success criteria require to be updated with more detailed descriptions.
 
+**9**- description of the e-commerce business model in the Readme document.
+
 
 ## Credits
 
