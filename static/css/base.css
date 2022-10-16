@@ -27,8 +27,8 @@ body {
     width: fit-content;
 }
 
-h1.display-4.logo-font.text-white {
-    display: flex;
+h1.display-4.logo-font {
+    font-size: xx-large;
 }
 
 .shop-now-button {
