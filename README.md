@@ -34,9 +34,9 @@ In terms of overall functional scope of the application the following key areas 
 
 **Contact Us**- this functionality allows registered and unregistered site users to send queries to Sneakerpoint. The Contact Us is available through Customer Centre in the navbar and allows the users to submit query or a question they may have. Submissions are handled through a form available to users, and which requires user to provide their email address, subject and the actual message. Once the request is submitted users will receive confirmation that the query has been received. The actual queries are recorded in the database for site admin or the business owner to review and respond to client. The responses will need to be managed through an external email for now.
 
-**Customer Reviews**- THIS SECTION IS STILL IN DEVELOPMENT
+**Customer Reviews**- THIS FUNCTIONALITY IS STILL IN DEVELOPMENT
 
-**Wishlist**- THIS SECTION IS STILL IN DEVELOPMENT
+**Wishlist**- THIS FUNCTIONALITY IS STILL IN DEVELOPMENT
 
 **Bag** - this functionality allows customers to add products to a bag, should they decide to proceed and complete the purchase. Each addition of a product will update the bag and also provide user with a notificaiton message. Within the bag the user may take actions to update the quantity of product or remove them from the bag. The bag also allows the users to proceed to checkout section, where the purchase can be completed.
 
@@ -57,7 +57,7 @@ As part of the development the following languages were used:
 - HTML
 - CSS
 - Python
--Javascript
+- Javascript
 
 **Database**
 
@@ -71,6 +71,19 @@ DATABASE SCHEMA TO BE ADDED
 
 **Development**
 
+For the purpose of development of this project a number of technologies were used. 
+
+- GitHub repository was used to store the project's code after being pushed from Gitpod.
+- Gitpod IDE was used for version control by utilizing the Gitpod terminal to commit and Push to GitHub.
+- Django framework was used to develop structure of the application and also to use some of the already developed functions of Django such as user authorisation, admin portal and others.
+- Bootstrap5 was used for construction of the application application and responsiveness.
+- Crispy forms library 
+- DrawSQL was used for drawing database schema.
+- Balsamiq was used for creation of wireframes during the initial design process.
+- Google Gmail for sending user emails.
+- Heroku was used for hosting the application
+- PostgreSQL was used to manage database of the application
+- AWS was used for storing static files and product images.
 
 **Deployment and application hosting**
 
