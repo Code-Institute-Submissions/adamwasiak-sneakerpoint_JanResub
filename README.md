@@ -46,6 +46,8 @@ In terms of overall functional scope of the application the following key areas 
 
 **Card payments**- the application incorporates credit card payment solution provided by Stripe in order to complete payments. The solution allows to provide real time feedback to customers in event if the credit card payment is rejected or the card number is incorrect. There are mutliple events, which Stripe will provide detailed feedback on to a user if required.
 
+**Newsletter**- registered and unregistered users are able to provide their email address and sign up for a free newsletter from the business.
+
 
 ### 3 Solution 
 
@@ -86,78 +88,113 @@ For the purpose of development of this project a number of technologies were use
 - Heroku was used for hosting the application
 - PostgreSQL was used to manage database of the application
 - AWS was used for storing static files and product images.
-
-**Deployment and application hosting**
-
+- Mailchimp was used to manage collection of newsletter signups from users.
 
 ### 4 Wireframes 
 
-
+WIREFRAMES TO BE ADDED
 
 **Desktop**
 
+SECTION CONTENT TO BE ADDED
 
 **Mobile**
 
-
-
+SECTION CONTENT TO BE ADDED
 
 ### 5 User Stories
 
+SECTION CONTENT TO BE ADDED
 
 ## User Experience
 
+SECTION BELOW TO BE ADDED INCLUDING SCREENSHOTS OF THE APPLICATION
+
 ## Features 
 
-
-
+SECTION CONTENT TO BE ADDED
 
 ## Future developments
 
+SECTION CONTENT TO BE ADDED
 
 ## Testing 
 
+SECTION CONTENT TO BE ADDED
 
 **Functional**
 
-
-
+SECTION CONTENT TO BE ADDED
 
 **Code validation testing**
 
+SECTION CONTENT TO BE ADDED
 
 **HTML code validation**
 
+SECTION CONTENT TO BE ADDED
 
 **Python code validation**
 
-
+SECTION CONTENT TO BE ADDED
 
 **CSS code validation**
 
+SECTION CONTENT TO BE ADDED
 
 **Lighthouse – Dev Tools**
 
-Lighthouse testing has been also completed for both, desktop and mobile.
+SECTION CONTENT TO BE ADDED
 
 *Desktop*
 
-
+SECTION CONTENT TO BE ADDED
 
 *Mobile* 
 
+SECTION CONTENT TO BE ADDED
 
 **Bugs**
 
+SECTION CONTENT TO BE ADDED
+
  **Fixed Bugs**
  
+ SECTION CONTENT TO BE ADDED
   
  **Unfixed Bugs**
 
+SECTION CONTENT TO BE ADDED
  
 ## Deployment 
 
+The application was deployed in Heroku. In addition a bucket was setup in AWS in order to store static files and media images.
+
+SECTION ABOVE TO BE EXPANDED WITH MORE DETAILED STEPS OF THE ACTUAL DEPLOYMENT PROCESS
+
+
+## Project status 
+
+Due to timecontraints the project is deemed to be partially complete. The following elements still need to be worked on:
+
+**1** - 2 additional models require further development and completion. The 2 remaining models are related to Customer Reviews and Wishlist functionality.
+
+**2** - SEO implementation requires to be completed, including sitemap.xml, robots.xml and descriptive tags. 
+
+**3** - Marketing aspect related to creation of business Facebook page also needs to be completed.
+
+**4** - resposive design for some of the pages of the application requires to be reviewed in more detail in order to improve user experience.
+
+**5** - although good level of testing has been completed a more complete revision of test scenarios is still required.
+
+**6**- Readme document has a number of gaps, which have not been completed yet due to time constraints to complete the project.
+
+**7**- a thorough code review is still required in order to ensure that the code is structed in line with industry practices, including inclusion of additional comments.
 
 
 ## Credits
+
+- The thyme of the application is influenced by Code Institute's walkthrough project Boutique Ado
+- Products and frontpage images were acquired from unsplash.com
+- Thank you to my mentor Daisy for continous support and guidance.
 
