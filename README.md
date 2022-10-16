@@ -104,7 +104,10 @@ SECTION CONTENT TO BE ADDED
 
 ### 5 User Stories
 
-SECTION CONTENT TO BE ADDED
+The development of the project was based on User Stories created for the purpose of this project. The User stories were created and managed through a Kanban board available in GitHub. 
+There were total of 19 User Stories which had been created for this development. The User Stories had been labelled accordingly to reflect 3 categories assigned such as: Must-Have, Should-Have and Could-Have. The progress in development was reflected in User Stories being moved from To Do, In Progress to Done section of the Kanban board. 
+
+All of the User Stories for this project can be accessed [here](https://github.com/users/adamwasiak/projects/3/views/2).
 
 ## User Experience
 
@@ -191,10 +194,12 @@ Due to timecontraints the project is deemed to be partially complete. The follow
 
 **7**- a thorough code review is still required in order to ensure that the code is structed in line with industry practices, including inclusion of additional comments.
 
+**8**- user stories success criteria require to be updated with more detailed descriptions.
+
 
 ## Credits
 
 - The thyme of the application is influenced by Code Institute's walkthrough project Boutique Ado
 - Products and frontpage images were acquired from unsplash.com
-- Thank you to my mentor Daisy for continous support and guidance.
+- Thank you to my mentor Daisy for continuous support and guidance.
 
