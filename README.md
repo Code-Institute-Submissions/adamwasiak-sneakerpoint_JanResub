@@ -16,10 +16,33 @@ The below section of the document outlines development journey of the applicatio
 
 ### 1 Concept
 
+The concept of the project was to develop a fully functional e-commerce application, which would allow the business owner to run a business.
+The business owner/site administrator is able to manage many of the functions via Django's admin portal however a functionality has been developed to allow site administrator to manage upload, edit and deletion of products via user interface. 
+As for the target audience and ultimate users of the applications, are the customers interested in purchasing sneakers. In order to faciliate the process a customer profile can be created in order to retain key customer information such as address and contact details.
 
+From a business point of view the desire was to develop an application, which would be user friendly, simple to use and browse the products as well as complete the purchase, using credit or debit cards.
 
 ### 2 Functional scope 
 
+In terms of overall functional scope of the application the following key areas were needed to be developed in order for the site to operate as required:
+
+**Site admin -
+
+**User Profile -
+
+**Registration and Login
+
+**Contact Us
+
+**Customer Reviews
+
+**Wishlist
+
+**Bag 
+
+**Checkout
+
+**Card payments
 
 
 ### 3 Solution 
