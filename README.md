@@ -10,6 +10,8 @@ The Sneakerpoint e-commerce website has been developed as part of the Milestone 
 The application provides a fully functional solution for a e-commerce business selling new and used sneakers. Business owner and the admin of the application is able to manage products available throughout the website as well as users (Sneakpoint customers), orders and queries from customers.
 The target audience of the site are users who look to purchase either new or used sneakers. Customers of Sneakerpoint are allowed to register and manage their user profiles as well as complete orders, including payment for the order.
 
+![Multidevice view](webimages/multidevice.png)
+
 ## Design 
 
 The below section of the document outlines development journey of the application starting from the concept to ultimate solution used to develop the site.
