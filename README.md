@@ -1,108 +1,163 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sneakerpoint
+Sneaker marketplace for new and used sneakers.
 
-Welcome adamwasiak,
+Please visit the website [here](https://sneakerpoint.herokuapp.com/).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Introduction and purpose
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The Sneakerpoint e-commerce website has been developed as part of the Milestone project 5 for Code Institute Diploma in Software Development with eCommerce. The Sneakerpoint is an e-commerce applicationbuilt in Django, incorporating Python, CSS and HTML.
 
-## Gitpod Reminders
+The application provides a fully functional solution for a e-commerce business selling new and used sneakers. Business owner and the admin of the application is able to manage products available throughout the website as well as users (Sneakpoint customers), orders and queries from customers.
+The target audience of the site are users who look to purchase either new or used sneakers. Customers of Sneakerpoint are allowed to register and manage their user profiles as well as complete orders, including payment for the order.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Multidevice view](webimages/multidevice.png)
 
-`python3 -m http.server`
+## Design 
 
-A blue button should appear to click: _Make Public_,
+The below section of the document outlines development journey of the application starting from the concept to ultimate solution used to develop the site.
 
-Another blue button should appear to click: _Open Browser_.
+### 1 Concept
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The concept of the project was to develop a fully functional e-commerce application, which would allow the business owner to run a business.
+The business owner/site administrator is able to manage many of the functions via Django's admin portal however a functionality has been developed to allow site administrator to manage upload, edit and deletion of products via user interface. 
+As for the target audience and ultimate users of the applications, are the customers interested in purchasing sneakers. In order to faciliate the process a customer profile can be created in order to retain key customer information such as address and contact details.
 
-A blue button should appear to click: _Make Public_,
+From a business point of view the desire was to develop an application, which would be user friendly, simple to use and browse the products as well as complete the purchase, using credit or debit cards.
 
-Another blue button should appear to click: _Open Browser_.
+### 2 Functional scope 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+In terms of overall functional scope of the application the following key areas were needed to be developed in order for the site to operate as required:
 
-To log into the Heroku toolbelt CLI:
+**Site admin** - the primary means of managing the site from admin point of view is through a default admin portal supplied by Django's framework. With that said, the site admin is also allowed to manage products via user interface (Sneakerpoint site), whereby a product can be added, edited and deleted if necessary.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Registration and Login**- site visitors and potential customers are invited to register via an option available in the navbar menu Customer Centre. The registration and login process is supported by Django's allauth solution. The registration process has been enhanced through email notifications, which users receive at the time of registration on the site.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+**User Profile** - once registered customers can maintain and update their customer details, including address information. The profile also allows the users to view orders, which have been placed previously.
 
-------
+**Contact Us**- this functionality allows registered and unregistered site users to send queries to Sneakerpoint. The Contact Us is available through Customer Centre in the navbar and allows the users to submit query or a question they may have. Submissions are handled through a form available to users, and which requires user to provide their email address, subject and the actual message. Once the request is submitted users will receive confirmation that the query has been received. The actual queries are recorded in the database for site admin or the business owner to review and respond to client. The responses will need to be managed through an external email for now.
 
-## Release History
+**Customer Reviews**- THIS FUNCTIONALITY IS STILL IN DEVELOPMENT
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Wishlist**- THIS FUNCTIONALITY IS STILL IN DEVELOPMENT
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+**Bag** - this functionality allows customers to add products to a bag, should they decide to proceed and complete the purchase. Each addition of a product will update the bag and also provide user with a notificaiton message. Within the bag the user may take actions to update the quantity of product or remove them from the bag. The bag also allows the users to proceed to checkout section, where the purchase can be completed.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**Checkout**- this part of functionality allows the users to complete the purchase of product/s they have selected. As part of the checkout process, the user will be required to provide their details such as name, email address and a shipping address. Users will also need to provide credit card details in order to complete the purchase.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Card payments**- the application incorporates credit card payment solution provided by Stripe in order to complete payments. The solution allows to provide real time feedback to customers in event if the credit card payment is rejected or the card number is incorrect. There are mutliple events, which Stripe will provide detailed feedback on to a user if required.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### 3 Solution 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+In order to develop the application, and given the functional needs the following solutions were used:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+**Languages**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Given the fact that the nature of the application allows for a frequent content manipulation, a standard HTML solution would not work.
+The solution needed to incorporate Python in order to make the solution more agile, in terms of development of relevant functions and in order for the user actions to be able to interact with the database in place. 
+As part of the development the following languages were used:
+- HTML
+- CSS
+- Python
+- Javascript
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Database**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The application required a database structure, which would support managing various aspects of running the e-commerce business.
+The key needs from databasr perspective were related to managing products, profiles/accounts, orders, customer queries, customer reviews and wishlist.
+For the purpose of managing database related needs, Postgresql was selected as a solution for this project.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The below reflects database schema developed in order to support the needs of this project.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+DATABASE SCHEMA TO BE ADDED
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Development**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+For the purpose of development of this project a number of technologies were used. 
 
-------
+- GitHub repository was used to store the project's code after being pushed from Gitpod.
+- Gitpod IDE was used for version control by utilizing the Gitpod terminal to commit and Push to GitHub.
+- Django framework was used to develop structure of the application and also to use some of the already developed functions of Django such as user authorisation, admin portal and others.
+- Bootstrap5 was used for construction of the application application and responsiveness.
+- Crispy forms library 
+- DrawSQL was used for drawing database schema.
+- Balsamiq was used for creation of wireframes during the initial design process.
+- Google Gmail for sending user emails.
+- Heroku was used for hosting the application
+- PostgreSQL was used to manage database of the application
+- AWS was used for storing static files and product images.
 
-## FAQ about the uptime script
+**Deployment and application hosting**
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### 4 Wireframes 
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Desktop**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+**Mobile**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### 5 User Stories
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## User Experience
 
----
+## Features 
 
-Happy coding!
+
+
+
+## Future developments
+
+
+## Testing 
+
+
+**Functional**
+
+
+
+
+**Code validation testing**
+
+
+**HTML code validation**
+
+
+**Python code validation**
+
+
+
+**CSS code validation**
+
+
+**Lighthouse – Dev Tools**
+
+Lighthouse testing has been also completed for both, desktop and mobile.
+
+*Desktop*
+
+
+
+*Mobile* 
+
+
+**Bugs**
+
+ **Fixed Bugs**
+ 
+  
+ **Unfixed Bugs**
+
+ 
+## Deployment 
+
+
+
+## Credits
+
