@@ -3,10 +3,11 @@ from .models import Review
 
 class ReviewAdmin(admin.ModelAdmin):
     list_display = (
-        'subject',
+        'name',
         'review',
+        'created_on',
     )
 
-    ordering = ('review',)
+    ordering = ('name',)
 
 admin.site.register(Review, ReviewAdmin)
