@@ -1,8 +1,8 @@
 from django.forms import ModelForm
-from .models import Reviews
+from .models import Review
 
 
-class ReviewsForm(ModelForm):
+class ReviewForm(ModelForm):
     class Meta:
         model = Review
-        fields = ('content', )
+        fields = '__all__'
