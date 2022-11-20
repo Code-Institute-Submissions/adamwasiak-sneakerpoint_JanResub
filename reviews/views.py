@@ -7,7 +7,7 @@ def review_view(request):
         form = ReviewForm(request.POST)
         if form.is_valid():
             form.save()
-            return render(request, 'reviews/review.html')
+            return render(request, 'reviews/successreview.html')
     form = ReviewForm()
     context = {'form': form}
     return render(request, 'reviews/review.html', context)

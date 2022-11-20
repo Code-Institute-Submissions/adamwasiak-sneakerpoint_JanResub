@@ -8,6 +8,6 @@ class ReviewAdmin(admin.ModelAdmin):
         'created_on',
     )
 
-    ordering = ('name',)
+    ordering = ('review',)
 
 admin.site.register(Review, ReviewAdmin)
