@@ -1,3 +1,4 @@
+from . import views
 from django.urls import path
 from reviews import views as review_views
 
