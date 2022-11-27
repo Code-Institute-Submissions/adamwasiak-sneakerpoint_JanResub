@@ -114,6 +114,7 @@ All of the User Stories for this project can be accessed [here](https://github.c
 The following marketing have been used in order to promote the business:
 
 **SEO** - search engine optimazation has been also used including use of meta data in html structure, targeting the page word content with potential search on the web.
+In addition robots.txt file and sitemap.xml have been both added to the structure of the application for enhanced search optimazation.
 
 **Facebook business page** - a business page has been created on Facebook in order to increase engagement and outreach to potential customers. Facebook page will offer the business a direct engagement with potential customers and sneakers lovers across the globe.
 
