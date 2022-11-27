@@ -392,3 +392,14 @@ div.indicates-required.text-muted.float-right {
 div.mce_inline_error {
     width: 33%;
 }
+
+/* wishlist page styling*/
+
+div.container-fluid.large-container {
+    background:#acc4c9;
+    color: #525056;
+}
+
+footer.d-flex.flex-column.justify-content-center.px-4 {
+    flex-direction: column!important;
+}
