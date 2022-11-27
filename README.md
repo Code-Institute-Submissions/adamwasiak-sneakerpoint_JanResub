@@ -189,27 +189,23 @@ The application was deployed in Heroku. In addition a bucket was setup in AWS in
 SECTION ABOVE TO BE EXPANDED WITH MORE DETAILED STEPS OF THE ACTUAL DEPLOYMENT PROCESS
 
 
-## Project status 
+## Project status as of 27th November
 
 Due to timecontraints the project is deemed to be partially complete. The following elements still need to be worked on:
 
-**1** - 2 additional models require further development and completion. The 2 remaining models are related to Customer Reviews and Wishlist functionality.
+**1** - 1 additional model (Customer reviews) requires further development and completion. 
 
-**2** - SEO implementation requires to be completed, including sitemap.xml, robots.xml and descriptive tags. 
+**2** - resposive design for some of the pages of the application requires to be reviewed in more detail in order to improve user experience.
 
-**3** - Marketing aspect related to creation of business Facebook page also needs to be completed.
+**3** - although good level of testing has been completed a more complete revision of test scenarios is still required. Documentation to be added to Readme document.
 
-**4** - resposive design for some of the pages of the application requires to be reviewed in more detail in order to improve user experience.
+**4**- Readme document has a number of gaps, which have not been completed yet due to time constraints to complete the project.
 
-**5** - although good level of testing has been completed a more complete revision of test scenarios is still required.
+**5**- a thorough code review is still required in order to ensure that the code is structed in line with industry practices, including inclusion of additional comments.
 
-**6**- Readme document has a number of gaps, which have not been completed yet due to time constraints to complete the project.
+**6**- user stories success criteria require to be updated with more detailed descriptions.
 
-**7**- a thorough code review is still required in order to ensure that the code is structed in line with industry practices, including inclusion of additional comments.
-
-**8**- user stories success criteria require to be updated with more detailed descriptions.
-
-**9**- description of the e-commerce business model in the Readme document.
+**7**- description of the e-commerce business model in the Readme document.
 
 
 ## Credits
