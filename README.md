@@ -36,9 +36,9 @@ In terms of overall functional scope of the application the following key areas 
 
 **Contact Us**- this functionality allows registered and unregistered site users to send queries to Sneakerpoint. The Contact Us is available through Customer Centre in the navbar and allows the users to submit query or a question they may have. Submissions are handled through a form available to users, and which requires user to provide their email address, subject and the actual message. Once the request is submitted users will receive confirmation that the query has been received. The actual queries are recorded in the database for site admin or the business owner to review and respond to client. The responses will need to be managed through an external email for now.
 
-**Customer Reviews**- THIS FUNCTIONALITY IS STILL IN DEVELOPMENT
+**Customer Reviews**- THIS FUNCTIONALITY IS PARTIALLY DEVELOPED - this functionality allows registered and logged in users to submit customer reviews. Once the user is logged in the user will be able to see their name and under the customer review will be logged under. Whilst at the moment the customer reviews are recorded in the database, the actual customer reviews are not yet displayed on the website that so these can be viewed by other, non logged users.
 
-**Wishlist**- THIS FUNCTIONALITY IS STILL IN DEVELOPMENT
+**Wishlist**- this functionality allows registered and logged users to add products to their personal wishlist. Any products in user's wishlist can be reviewed further by clicking details button or alternatively products can be removed from the list at a click of a button. The wishlist functionality tracks all the users who have created a wishlist. In addition wishlists also tracks the individual products, which form part of users' wishlists.
 
 **Bag** - this functionality allows customers to add products to a bag, should they decide to proceed and complete the purchase. Each addition of a product will update the bag and also provide user with a notificaiton message. Within the bag the user may take actions to update the quantity of product or remove them from the bag. The bag also allows the users to proceed to checkout section, where the purchase can be completed.
 
