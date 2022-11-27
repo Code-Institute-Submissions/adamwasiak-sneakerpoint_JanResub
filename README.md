@@ -109,6 +109,18 @@ There were total of 19 User Stories which had been created for this development.
 
 All of the User Stories for this project can be accessed [here](https://github.com/users/adamwasiak/projects/3/views/2).
 
+### 6 Marketing of the business 
+
+The following marketing have been used in order to promote the business:
+
+**SEO** - search engine optimazation has been also used including use of meta data in html structure, targeting the page word content with potential search on the web.
+
+**Facebook business page** - a business page has been created on Facebook in order to increase engagement and outreach to potential customers. Facebook page will offer the business a direct engagement with potential customers and sneakers lovers across the globe.
+
+![facebookpage](webimages/Facebookpage.PNG)
+
+**Newsletter** - Mailchmip has been used and linked to the application for the purpose of getting users and potential customers to sign up for business updates and promotions.
+
 ## User Experience
 
 SECTION BELOW TO BE ADDED INCLUDING SCREENSHOTS OF THE APPLICATION
