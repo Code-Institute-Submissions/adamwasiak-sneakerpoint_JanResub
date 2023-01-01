@@ -92,7 +92,8 @@ For the purpose of development of this project a number of technologies were use
 
 ### 4 Wireframes 
 
-In the the process of the application being designed the below wireframes have been drafted and put together. 
+In the the process of the application being designed the below wireframes have been drafted and put together.
+Wireframes have been designed for both desktop and mobile views.
 
 <details open>
 <summary>Desktop</summary>
@@ -160,7 +161,63 @@ Product Management
 <details open>
 <summary>Mobile</summary>
 <br>
-Images
+
+ Homepage  
+
+![homepage](webimages/mobilehomepage.PNG)
+ 
+Products
+ 
+![products](webimages/mobileproducts.PNG)
+ 
+Individual product details 
+ 
+![product](webimages/mobileindividualproduct.PNG)
+ 
+Sign up
+ 
+![signup](webimages/mobilesignup.PNG)
+ 
+Login
+ 
+![login](webimages/mobilelogin.PNG)
+ 
+Logout
+ 
+![logout](webimages/mobilelogout.PNG)
+ 
+User Profile
+ 
+![userprofile](webimages/mobileprofile.PNG)
+ 
+Contact Us 
+ 
+![contact](webimages/mobilecontact.PNG)
+
+Wishlist 
+ 
+![wishlist](webimages/mobilewishlist.PNG)
+ 
+Customer Review Submission 
+ 
+![customerreviewsubmission](webimages/mobilereviewsubmit.PNG)
+ 
+Customer Reviews Summary 
+ 
+![reviews](webimages/mobilereviewssummary.PNG)
+ 
+Shopping Bag 
+ 
+![shoppingbag](webimages/mobileshoppingbag.PNG)
+ 
+Checkout 
+ 
+![checkout](webimages/mobilecheckout.PNG)
+ 
+Product Management
+ 
+![productmanagement](webimages/mobileproductmanagement.PNG)
+ 
 </details>
 
 ### 5 User Stories
