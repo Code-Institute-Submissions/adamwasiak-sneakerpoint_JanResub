@@ -100,34 +100,59 @@ In the the process of the application being designed the below wireframes have b
 
 Homepage
 
+![homepage](webimages/homepage.PNG)
  
 Products
  
+![products](webimages/productview.PNG)
+ 
 Individual product details 
+ 
+![product](webimages/individualproduct.PNG)
  
 Sign up
  
-Login 
+![signup](webimages/signup.PNG)
+ 
+Login
+ 
+![login](webimages/login.PNG)
  
 Logout
  
+![logout](webimages/logout.PNG)
+ 
 User Profile
  
+![userprofile](webimages/userprofile.PNG)
+ 
 Contact Us 
+ 
+![contact](webimages/contact.PNG)
 
 Wishlist 
  
+![wishlist](webimages/wishlist.PNG)
+ 
 Customer Review Submission 
+ 
+![customerreviewsubmission](webimages/customerreviewsubmit.PNG)
  
 Customer Reviews Summary 
  
+![reviews](webimages/customerviewssummary.PNG)
+ 
 Shopping Bag 
+ 
+![shoppingbag](webimages/shoppingbag.PNG)
  
 Checkout 
  
+![checkout](webimages/checkout.PNG)
+ 
 Product Management
  
-
+![productmanagement](webimages/productmanagement.PNG)
  
  
 </details>
