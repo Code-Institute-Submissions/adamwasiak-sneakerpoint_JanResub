@@ -92,15 +92,51 @@ For the purpose of development of this project a number of technologies were use
 
 ### 4 Wireframes 
 
-WIREFRAMES TO BE ADDED
+In the the process of the application being designed the below wireframes have been drafted and put together. 
 
-**Desktop**
+<details open>
+<summary>Desktop</summary>
+<br>
 
-SECTION CONTENT TO BE ADDED
+Homepage
 
-**Mobile**
+ 
+Products
+ 
+Individual product details 
+ 
+Sign up
+ 
+Login 
+ 
+Logout
+ 
+User Profile
+ 
+Contact Us 
 
-SECTION CONTENT TO BE ADDED
+Wishlist 
+ 
+Customer Review Submission 
+ 
+Customer Reviews Summary 
+ 
+Shopping Bag 
+ 
+Checkout 
+ 
+Product Management
+ 
+
+ 
+ 
+</details>
+
+<details open>
+<summary>Mobile</summary>
+<br>
+Images
+</details>
 
 ### 5 User Stories
 
