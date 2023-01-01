@@ -92,7 +92,8 @@ For the purpose of development of this project a number of technologies were use
 
 ### 4 Wireframes 
 
-In the the process of the application being designed the below wireframes have been drafted and put together. 
+In the the process of the application being designed the below wireframes have been drafted and put together.
+Wireframes have been designed for both desktop and mobile views.
 
 <details open>
 <summary>Desktop</summary>
