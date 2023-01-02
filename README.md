@@ -254,11 +254,15 @@ SECTION CONTENT TO BE ADDED
 
 ## Testing 
 
-SECTION CONTENT TO BE ADDED
+There has been an extensive testing completed prior to final deployment. The 2 key areas of testing were related to functional and code validation.
 
 **Functional**
 
-SECTION CONTENT TO BE ADDED
+The functional testing has been completed manually and the test scenarios and the test results have been captured in the documents below. The document break the test scripts into a number of functional test groups. Overall testing has been successful, with only 1 aspect being identified as an issue. The issue has been noted in the unfixed bugs section below.
+
+![tests1](webimages/tests1.PNG)
+
+![test2](webimages/test2.PNG)
 
 **Code validation testing**
 
