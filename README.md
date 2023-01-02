@@ -71,7 +71,7 @@ For the purpose of managing database related needs, Postgresql was selected as a
 
 The below reflects database schema developed in order to support the needs of this project.
 
-DATABASE SCHEMA TO BE ADDED
+![database](webimages/database.PNG)
 
 **Development**
 
