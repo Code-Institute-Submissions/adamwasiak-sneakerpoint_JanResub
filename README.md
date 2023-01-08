@@ -233,7 +233,7 @@ All of the User Stories for this project can be accessed [here](https://github.c
 
 Sneakerpoint is a business to consumer e-commerce website offering its users (consumers) a platform to purchase sneakers, new and used. Consumers who wish to proceed with a purchase will be required to register and such users will avail of site functionality to store their shipping information and also details of previous orders.
 Consumers who are visiting the site for the very first time are not required to register and can browse and access all information about the products across the Sneakerpoint site.As a modern day e-commerce site, Sneakerpoint allows users to purchase their prouducts using payment cards as a main and the only method of payment for now.
-At the present, the business concept is limited to business to consumer model, whereas with time and site expansion the model could also include consumer to consumer. The latter would allow site users to offer their products (sneakers) to other consumers. The Sneakerpoint as a business, in such as scenario would commercially benefit by applying a fee to each transaction.
+At the present, the business concept is limited to business to consumer model, whereas with time and site expansion the model could also include consumer to consumer. The latter would allow site users to offer their products (sneakers) to other consumers. The Sneakerpoint as a business, in such scenario would commercially benefit by applying a fee to each transaction.
 
 ### Marketing
 
