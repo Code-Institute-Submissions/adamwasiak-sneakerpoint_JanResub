@@ -250,7 +250,10 @@ In addition robots.txt file and sitemap.xml have been both added to the structur
 
 ## User Experience
 
-SECTION BELOW TO BE ADDED INCLUDING SCREENSHOTS OF THE APPLICATION
+The Sneakerpoint e-commerce site has been developed with an aim to make the user experience pleasant, intuitive and simple in terms of site navigation.
+The key objective was to make the site visually appealing for users through a combination of a balanced ratio between good sized images and essential use of text and buttons.
+
+The below Features sections illustrates all the key features currently available to Sneakerpoint users.
 
 ## Features 
 
