@@ -2,6 +2,8 @@ from django.contrib import admin
 from .models import Contact
 
 # below will be displayed in admin portal
+
+
 class ContactAdmin(admin.ModelAdmin):
     list_display = (
         'email',
@@ -10,5 +12,6 @@ class ContactAdmin(admin.ModelAdmin):
     )
 
     ordering = ('email',)
+
 
 admin.site.register(Contact, ContactAdmin)

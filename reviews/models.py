@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # database model for reviews app
+
+
 class Review(models.Model):
     name = models.ForeignKey(User, on_delete=models.CASCADE)
     review = models.TextField()
