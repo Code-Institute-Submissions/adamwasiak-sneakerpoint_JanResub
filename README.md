@@ -405,19 +405,35 @@ SECTION CONTENT TO BE ADDED
 
 **CSS code validation**
 
-SECTION CONTENT TO BE ADDED
+The code validation process in Jigsaw CSS Validator has not highlighted code errors.
+
+**base.css**
+
+![basecss](webimages/basecss.PNG)
+
+**checkout.css**
+
+![checkoutcss](webimages/basecss.PNG)
+
+**profile.css**
+
+![profilecss](webimages/profilecss.PNG)
+
+**contact.css**
+
+![contactcss](webimages/contactcss.PNG)
 
 **Lighthouse – Dev Tools**
 
-SECTION CONTENT TO BE ADDED
+Lighthouse testing has been also completed for both, desktop and mobile.
 
 *Desktop*
 
-SECTION CONTENT TO BE ADDED
+![desktoplighthouse](webimages/desktoplighthouse.PNG)
 
 *Mobile* 
 
-SECTION CONTENT TO BE ADDED
+![mobilelighthouse](webimages/mobilelighthouse.PNG)
 
 **Bugs**
 
