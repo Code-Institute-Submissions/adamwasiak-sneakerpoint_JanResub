@@ -434,8 +434,37 @@ SECTION CONTENT TO BE ADDED
 ## Deployment 
 
 The application was deployed in Heroku. In addition a bucket was setup in AWS in order to store static files and media images.
+Payments processing feature was implemented using Stripe as a payment platform. The database content was migrated from originally set up PostgreSQL to ElephantSQL.
 
-SECTION ABOVE TO BE EXPANDED WITH MORE DETAILED STEPS OF THE ACTUAL DEPLOYMENT PROCESS
+Below sections outline in more details actions taken as part of the application deployment.
+
+**Stripe**
+
+1. Create account at stripe.com.
+2. Access Developer section and go to API Keys section. 
+3. Stripe secret key, public keysand webhook need to be copied into Heroku's confir vars section and in env.py in the development environment.
+4. The above steps complete the require level of setup for Stripe to process payments successfully.
+
+
+**ElephantSQL migration**
+
+**Amazon AWS S3**
+
+1. Go to Amazon AWS site and create an account
+2. Create a new S3 bucket for the site and create a static directory and media directory within the bucket
+3. From the dashboard in Amazon AWS the following information will need to be copied into setting.py file in the development environment:
+- Storage Bucket Name
+- Storage Bucket Region Name
+- Access Key ID
+- Secret Access Key
+- Custom Domain 
+4. In env.py file in the development environment the below values will need to be added:
+- os.environ["AWS_ACCESS_KEY_ID"] = 'your access key value'
+- os.environ["AWS_SECRET_ACCESS_KEY"] = 'your secret access key value'
+5.In Heroku in the config vars section AWS Access Key ID and AWS Secret Access Key values will need to be also added.
+
+
+**Heroku**
 
 
 ## Project status as of 27th November
