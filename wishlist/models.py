@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from products.models import Product
 
-
+# wishlist model
 class WishList(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product,
@@ -12,7 +12,7 @@ class WishList(models.Model):
     def __str__(self):
         return f'WishList ({self.user})'
 
-
+# wishlist item model 
 class WishListItem(models.Model):
     product = models.ForeignKey(Product,
                                 null=False,

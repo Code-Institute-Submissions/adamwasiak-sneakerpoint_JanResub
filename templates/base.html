@@ -4,6 +4,7 @@
 <html lang="en">
   <head>
 
+    <!-- meta data and key words below -->
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
@@ -76,6 +77,7 @@
                       <div class="dropdown-menu border-0" aria-labelledby="user-options">
                           {% if request.user.is_authenticated %}
                               {% if request.user.is_superuser %}
+                                    <!-- Product management only for superusers-->
                                   <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                               {% endif %}
                               <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
