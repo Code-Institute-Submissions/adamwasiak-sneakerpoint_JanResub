@@ -437,15 +437,22 @@ Lighthouse testing has been also completed for both, desktop and mobile.
 
 **Bugs**
 
-SECTION CONTENT TO BE ADDED
+The below section outlines details of some of the resolved bugs and also ones, which still remain unresolved.
 
  **Fixed Bugs**
  
- SECTION CONTENT TO BE ADDED
+The following bugs have been identified and subsequently fixed in the course of the project development:
+
+- the Wishlist link in the Customer Centre section in the mobile view had an incorrect link incorporated and the application was not showing User's wishlist correctly. The issue has been resolved.
+
   
  **Unfixed Bugs**
 
-SECTION CONTENT TO BE ADDED
+The following bug remains unfixed:
+
+- application footer section remains misaligned when browsing in desktop, and when visiting the following sections of Sneakerpoint application: Contact Us, Customer Reviews, Login and My Profile.
+- there are number responsive design correction, which still need to be applied in order to improve user experience.
+- customer reviews are currently not displayed once submitted by users.
  
 ## Deployment 
 
