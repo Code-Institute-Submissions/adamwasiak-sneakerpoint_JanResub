@@ -448,6 +448,20 @@ Below sections outline in more details actions taken as part of the application 
 
 **ElephantSQL migration**
 
+The below steps describe database migration from PostgreSQL to ElephantSQL. The reason for that is that initially the project has been setup in PostgreSQL and then a change to an alternative hosting service was required.
+
+1. Login to ElephantSQL.com
+2. Click on Create New Instance
+3. Give your project a name and select Plan (Tiny Turtle Free) 
+4. Set Region to EU-WEST-1 (Ireland)
+5. Click on Create Instance
+6. Return to Dashboard and click on the project name you have created
+7. Subsequently a Postgres Migration Tool repo provided by Code Institute needed to be used
+8. Once the tool was access and a new Gipod instance was opened, the following command was required: python3 reel2reel.py
+9. Once the command was run, the DATABASE_URL value of the existing PostgreSQL database needed to be copied into Gitpod instance
+10. DATABASE_URL value from ElephantSQL needed to be also copied into Gitpod instance (Postgres Migration Tool repo) to confirm the details of the new database where the existing database records and tables needed to be copied to.
+11. Once all the steps have been taken the data and the data tables have been successfully copied.
+
 **Amazon AWS S3**
 
 1. Go to Amazon AWS site and create an account
@@ -466,24 +480,23 @@ Below sections outline in more details actions taken as part of the application 
 
 **Heroku**
 
-
-## Project status as of 27th November
-
-Due to timecontraints the project is deemed to be partially complete. The following elements still need to be worked on:
-
-**1** - 1 additional model (Customer reviews) requires further development and completion. 
-
-**2** - resposive design for some of the pages of the application requires to be reviewed in more detail in order to improve user experience.
-
-**3** - although good level of testing has been completed a more complete revision of test scenarios is still required. Documentation to be added to Readme document.
-
-**4**- Readme document has a number of gaps, which have not been completed yet due to time constraints to complete the project.
-
-**5**- a thorough code review is still required in order to ensure that the code is structed in line with industry practices, including inclusion of additional comments.
-
-**6**- user stories success criteria require to be updated with more detailed descriptions.
-
-**7**- description of the e-commerce business model in the Readme document.
+1. Log in to Heroku or create an account to be able to login.
+2. From the main Heroku Dashboard page select 'New' and then 'Create New App'.
+3. Provide a project name. The name for the app must be unique. This will create the app within Heroku.
+4. In Heroku's settings sections there is a sub section called Config Vars, and which will require the following values to be included:
+- AWS_ACCESS_KEY_ID- this value is obtained from Amazon AWS service. The same value is included in env.py file.
+- AWS_SECRET_ACCESS_KEY- this value is obtained from Amazon AWS service. The same value is included in env.py file.
+- DATABASE_URL- this value is obtained from ElephanSQL service. The same value is included in env.py file.
+- EMAIL_HOST_PASS- this value is obtained from Mailchimp service. 
+- EMAIL_HOST_USER- this value is obtained from Mailchimp service. 
+- SECRET_KEY- this value is included in env.py file.
+- STRIPE_PUBLIC_KEY- this value is obtained from Stripe service. The same value is included in env.py file.
+- STRIPE_SECRET_KEY- this value is obtained from Stripe service. The same value is included in env.py file.
+- STRIPE_WH_SECRET- this value is obtained from Stripe service.
+- USE_AWS- set to True
+5. Once all the Config Vars are correctly configured and aligned with repository, go to Deploy tab in Heroku. In this section Github repository can be connected to. Once connected, the deployment can be initiated by clicking on Deploy Branch.
+6. The process of building the application will be visible to a user in Heroku’s UI and any potential issues will be flagged.
+7. Once the build is completed Heroku will confirm completing the task.
 
 
 ## Credits
