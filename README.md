@@ -257,7 +257,69 @@ The below Features sections illustrates all the key features currently available
 
 ## Features 
 
-SECTION CONTENT TO BE ADDED
+**Homepage**
+
+![homepage](webimages/fhomepage.PNG)
+
+**Navigation Bar, User Menu and Site Search**
+
+![navbar](webimages/fnavbar.PNG)
+
+**Footer**
+
+![footer](webimages/ffooter.PNG)
+
+**Products Page**
+
+![products](webimages/fproducts.PNG)
+
+**Individual Product Page**
+
+![product](webimages/fproduct.PNG)
+
+**Shopping Bag**
+
+![bag](webimages/fbag.PNG)
+
+**Checkout** 
+
+![checkout](webimages/fcheckout.PNG)
+
+**User profile**
+
+![profile](webimages/fprofile.PNG)
+
+**Contact Us**
+
+![contact](webimages/fcontact.PNG)
+
+**Wishlist**
+
+![wishlist](webimages/fwishlist.PNG)
+
+**Customer Reviews**
+
+![review](webimages/freview.PNG)
+
+**User Registration** 
+
+![registration](webimages/fregister.PNG)
+
+**User Login** 
+
+![login](webimages/flogin.PNG)
+
+**User Logout** 
+
+![logout](webimages/flogout.PNG)
+
+**Admin Product Management** 
+
+![management](webimages/fmanagement.PNG)
+
+**Admin Portal** 
+
+![admin](webimages/fadmin.PNG)
 
 ## Future developments
 
