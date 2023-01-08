@@ -259,71 +259,113 @@ The below Features sections illustrates all the key features currently available
 
 **Homepage**
 
+Homepage includes welcome message and a button to access Sneakerpoint products.
+
 ![homepage](webimages/fhomepage.PNG)
 
 **Navigation Bar, User Menu and Site Search**
+
+Navigation bar allows user to select various options from Customer Centre menu, use the search option to locate products using specific word/s and also view total pending in the user's shopping bag at the point in time.
 
 ![navbar](webimages/fnavbar.PNG)
 
 **Footer**
 
+Footer includes links to Sneakerpoint's social medias as well as allows users to sign up for Sneakerpoint's newsletter.
+
 ![footer](webimages/ffooter.PNG)
 
 **Products Page**
+
+Products page will display rows of 4 products in each rown and allow the user to access more details about specific product by clicking on its image.
+Products' prices, ratings and names are also included below each of the product's images.
 
 ![products](webimages/fproducts.PNG)
 
 **Individual Product Page**
 
+Individual product's page will show the user product image, allow the user increase or decrease quantity of the products to be added to the shopping bag. 
+Users will be also able to add the specific product to shopping bag or can use the button to continue to shop across the Sneakerpoint site.
+Logged users will be also able to select product's size before adding it to the shopping bag.
+
 ![product](webimages/fproduct.PNG)
 
 **Shopping Bag**
+
+In the shopping bag users are able to view previously added product/s and adjust quantity. Products can be also removed from the shopping bag by users. 
+Users will be able to continue shopping by selecting related button or proceed to checkout.
 
 ![bag](webimages/fbag.PNG)
 
 **Checkout** 
 
+In the checkout users will be able to view details of the product/s selected as well as the total value of the order.
+Users will be asked to fill the details required for order processing, these include details of the user, delivery address and payment card details.
+
 ![checkout](webimages/fcheckout.PNG)
 
 **User profile**
+
+In the profile section users will be able to update their customer details including default delivery details.
+Users will be also in position to access details of their previous orders.
 
 ![profile](webimages/fprofile.PNG)
 
 **Contact Us**
 
+Contact Us feature will allow users to contact Sneakerpoint business with any queries site users may have.
+
 ![contact](webimages/fcontact.PNG)
 
 **Wishlist**
+
+Wishlist feature will allow registered and logged user to add selected product/s to their wishlist. Upon clicking on the Wishlist option in the Customer Centre sections users will be able to see all the product/s they have added to their wishlist. Users will be able to access individual product details or remove them from the Wishlist.
 
 ![wishlist](webimages/fwishlist.PNG)
 
 **Customer Reviews**
 
+Users will be able to submit their Customer Reviews. The feature of posting Customer Reviews is only available to registered and logged users.
+
 ![review](webimages/freview.PNG)
 
 **User Registration** 
+
+New site users are able to complete related registration process using Register feature available in the Customer Centre section.
 
 ![registration](webimages/fregister.PNG)
 
 **User Login** 
 
+Registered users will be able to login to Sneakerpoint site by using Login feature in the Customer Centre section.
+
 ![login](webimages/flogin.PNG)
 
 **User Logout** 
+
+Logged users will be able to logout from their profile by using Logout feature in the Customer Centre section.
 
 ![logout](webimages/flogout.PNG)
 
 **Admin Product Management** 
 
+Sneakerpoint admin is add and modify products via User Interface by using Product Management feature available in the Customer Centre section. This feature is only available for superusers.
+
 ![management](webimages/fmanagement.PNG)
 
 **Admin Portal** 
+
+Sneakerpoint admin is able to access and manage the site via Django's admin portal.
 
 ![admin](webimages/fadmin.PNG)
 
 ## Future developments
 
-SECTION CONTENT TO BE ADDED
+The below outlines potential future developments in order to expand the current commercial business model:
+
+- **User sales feature** - at the present Sneakerpoint business is based on the business to consumer model. This model will remain key generator of revenue for the Sneakerpoint business. With that said in order to attract a wider user base and also revenue stream, a feature allowing regsitered users to offer their products through Sneakerpoint marketplace will be also developed. Such approach would allow user community to sell their sneakers with an additional revenue stream for Sneakerpoint business, which would charge transaction fee per sale.
+
+- **Sneaker blog** - another development in the pipeline is creation of a user forum, which would allow users to have discussions about sneakers, exchange their views and engage in a dialogue with other sneakers lovers. This feature would be an additional trigger to generate interest in the Sneakerpoint site across the web and bring additional users.
 
 ## Testing 
 
