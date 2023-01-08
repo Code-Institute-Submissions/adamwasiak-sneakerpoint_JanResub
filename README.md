@@ -63,15 +63,27 @@ As part of the development the following languages were used:
 - Python
 - Javascript
 
-**Database**
+**Data and Database**
 
-The application required a database structure, which would support managing various aspects of running the e-commerce business.
-The key needs from databasr perspective were related to managing products, profiles/accounts, orders, customer queries, customer reviews and wishlist.
-For the purpose of managing database related needs, Postgresql was selected as a solution for this project.
+The Sneakerpoint application required a database structure, which would support managing various aspects of running the e-commerce business.
+The key needs from database perspective were related to managing products, profiles/accounts, orders, customer queries, customer reviews and wishlist.
+For the purpose of managing database related needs, ElephantSQL was selected as a solution for this project.
+
+The data content was designed and organised as a relational database. The images and static files for application are stored in Amazon's AWS S3.
 
 The below reflects database schema developed in order to support the needs of this project.
 
 ![database](webimages/database.PNG)
+
+**Security**
+
+In the course of application development the below security features have been incorporated:
+
+- Django's allauth has been used for user registration and authentication management.
+- Users who attempt to access retricted URLs, such as Product Management, and are not entitled to access this feature will be prompted to Login screen and will not be able to access the restricted feature.
+- Payments for user purchases are securely processed using Stripe as payment management platform.
+- CSRF token feature has been also utilised throughout the application to prevent unauthorised access and potential malicious attacks.
+
 
 **Development**
 
@@ -86,7 +98,7 @@ For the purpose of development of this project a number of technologies were use
 - Balsamiq was used for creation of wireframes during the initial design process.
 - Google Gmail for sending user emails.
 - Heroku was used for hosting the application
-- PostgreSQL was used to manage database of the application
+- ElephantSQL was used to manage database of the application
 - AWS was used for storing static files and product images.
 - Mailchimp was used to manage collection of newsletter signups from users.
 
