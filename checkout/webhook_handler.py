@@ -33,6 +33,7 @@ class StripeWH_Handler:
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
         )
+
     def handle_event(self, event):
         """
         Handle a generic/unknown/unexpected webhook event
@@ -129,7 +130,8 @@ class StripeWH_Handler:
                         )
                         order_line_item.save()
                     else:
-                        for size, quantity in item_data['items_by_size'].items():
+                        for size, quantity in item_data['items_by_size'].items(
+                        ):
                             order_line_item = OrderLineItem(
                                 order=order,
                                 product=product,

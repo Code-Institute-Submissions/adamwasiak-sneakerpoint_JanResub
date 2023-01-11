@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .forms import ReviewForm
+from .models import Review
 
 
 def review_view(request):
@@ -10,5 +11,5 @@ def review_view(request):
             form.save()
             return render(request, 'reviews/successreview.html')
     form = ReviewForm()
-    context = {'form': form}
+    context = {'form': form, 'reviews': Review.objects.all()}
     return render(request, 'reviews/review.html', context)

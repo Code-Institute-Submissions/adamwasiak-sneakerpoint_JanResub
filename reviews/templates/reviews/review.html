@@ -39,6 +39,8 @@
                 </form>
             </div>            
         </div>
+        {% for review in reviews %} {{review.review}}
+        {% endfor %}
         {% endif %}
     </div>
     {% endblock %}

@@ -10,4 +10,4 @@ class Review(models.Model):
     created_on = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return self.review
+        return str(self.review)
