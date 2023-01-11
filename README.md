@@ -36,7 +36,7 @@ In terms of overall functional scope of the application the following key areas 
 
 **Contact Us**- this functionality allows registered and unregistered site users to send queries to Sneakerpoint. The Contact Us is available through Customer Centre in the navbar and allows the users to submit query or a question they may have. Submissions are handled through a form available to users, and which requires user to provide their email address, subject and the actual message. Once the request is submitted users will receive confirmation that the query has been received. The actual queries are recorded in the database for site admin or the business owner to review and respond to client. The responses will need to be managed through an external email for now.
 
-**Customer Reviews**- THIS FUNCTIONALITY IS PARTIALLY DEVELOPED - this functionality allows registered and logged in users to submit customer reviews. Once the user is logged in the user will be able to see their name and under the customer review will be logged under. Whilst at the moment the customer reviews are recorded in the database, the actual customer reviews are not yet displayed on the website that so these can be viewed by other, non logged users.
+**Customer Reviews**- this functionality allows registered and logged in users to submit customer reviews. Once the user is logged in the user will be able to see their name and under the customer review will be logged under user's name. Whilst at the moment the customer reviews are recorded in the database, the actual customer reviews are only displayed to logged users.
 
 **Wishlist**- this functionality allows registered and logged users to add products to their personal wishlist. Any products in user's wishlist can be reviewed further by clicking details button or alternatively products can be removed from the list at a click of a button. The wishlist functionality tracks all the users who have created a wishlist. In addition wishlists also tracks the individual products, which form part of users' wishlists.
 
@@ -602,7 +602,7 @@ The following bug remains unfixed:
 
 - application footer section remains misaligned when browsing in desktop, and when visiting the following sections of Sneakerpoint application: Contact Us, Customer Reviews, Login and My Profile.
 - there are number responsive design correction, which still need to be applied in order to improve user experience.
-- customer reviews are currently not displayed once submitted by users.
+- submitted customer reviews are currently displayed to logged users and the format as they are displayed needs to be corrected and improved
  
 ## Deployment 
 
@@ -674,7 +674,7 @@ The below steps describe database migration from PostgreSQL to ElephantSQL. The 
 
 ## Credits
 
-- The thyme of the application is influenced by Code Institute's walkthrough project Boutique Ado
+- The theme of the application is influenced by Code Institute's walkthrough project Boutique Ado
 - Products and frontpage images were acquired from unsplash.com
 - Thank you to my mentor Daisy for continuous support and guidance.
 
