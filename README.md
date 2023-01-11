@@ -401,7 +401,157 @@ SECTION CONTENT TO BE ADDED
 
 **Python code validation**
 
-SECTION CONTENT TO BE ADDED
+The code validation process using pycodestyle has returned the follwing results.
+
+<details open>
+<summary>Python</summary>
+<br>
+
+ Bag apps.py
+ 
+![bagapps](webimages/bagapps.PNG)
+ 
+ Bag contexts.py
+ 
+![bagcontexts](webimages/bagcontexts.PNG)
+ 
+ Bag urls.py
+ 
+![bagurls](webimages/bagurls.PNG)
+ 
+ Bag views.py
+ 
+![bagviews](webimages/bagviews.PNG)
+ 
+ Checkout models.py 
+ 
+![checkoutmodels](webimages/checkoutmodels.PNG)
+ 
+ Checkout signals.py
+ 
+![checkoutsignals](webimages/checkoutsignals.PNG)
+ 
+ Checkout urls.py
+ 
+![checkouturls](webimages/checkouturls.PNG)
+ 
+ Checkout views.py
+ 
+![checkoutview](webimages/checkoutviews.PNG)
+ 
+ Checkout webhandler.py
+ 
+![checkoutwebhandler](webimages/checkoutwebhandler.PNG)
+ 
+ Contact admin.py
+ 
+![contactadmin](webimages/contactadmin.PNG)
+ 
+ Contact apps.py
+ 
+![contactapps](webimages/contactapps.PNG)
+ 
+ Contact forms.py
+ 
+![contactforms](webimages/contactforms.PNG)
+ 
+ Contact models.py 
+ 
+![contactmodels](webimages/contactmodels.PNG)
+ 
+ Contact urls.py
+ 
+![contacturls](webimages/contacturls.PNG)
+ 
+ Contact views.py
+ 
+![contactviews](webimages/contactviews.PNG)
+ 
+ Products admin.py 
+ 
+![productadmin](webimages/productsadmin.PNG)
+ 
+ Products apps.py
+ 
+![productsapps](webimages/productsapps.PNG)
+ 
+ Products forms.py
+ 
+![productsforms](webimages/productsforms.PNG)
+ 
+ Products models.py 
+ 
+![productsmodels](webimages/productsmodels.PNG)
+ 
+ Products urls.py
+ 
+![productsurls](webimages/productsurls.PNG)
+ 
+ Products views.py
+ 
+![productviews](webimages/productsviews.PNG)
+ 
+ Products widgets.py
+ 
+![productwidgets](webimages/productswidgets.PNG)
+ 
+ Profiles models.py
+ 
+![profilesmodels](webimages/profilesmodels.PNG)
+ 
+ Profiles urls.py
+ 
+![profilesurls](webimages/profilesurls.PNG)
+ 
+ Profiles views.py
+ 
+![profilesviews](webimages/profilesview.PNG)
+ 
+ Reviews admin.py
+ 
+![reviewsadmin](webimages/reviewsadmin.PNG)
+ 
+ Reviews apps.py
+ 
+![reviewsapps](webimages/reviewsapps.PNG)
+ 
+ Reviews models.py
+ 
+![reviewsmodels](webimages/reviewsmodels.PNG)
+ 
+ Reviews urls.py 
+ 
+![reviewsurls](webimages/reviewsurls.PNG)
+ 
+ Reviews views.py
+ 
+![reviewsviews](webimages/reviewsviews.PNG)
+ 
+ Settings
+ 
+![settings](webimages/settings.PNG)
+ 
+ Wishlist admin.py 
+ 
+![wishlistadmin](webimages/wishlistadmin.PNG)
+ 
+ Wishlist apps.py
+ 
+![wishlistapps](webimages/wishlistapps.PNG)
+ 
+ Wishlist models.py 
+ 
+![wishlistmodels](webimages/wishlistmodels.PNG)
+ 
+ Wishlist urls.py
+ 
+![wishlisturls](webimages/wishlisturls.PNG)
+ 
+ Wishlist views.py 
+ 
+![wishlistviews](webimages/wishlistviews.PNG)
+
+ </summary>
 
 **CSS code validation**
 
