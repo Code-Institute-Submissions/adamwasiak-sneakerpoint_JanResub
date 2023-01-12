@@ -393,11 +393,17 @@ The functional testing has been completed manually and the test scenarios and th
 
 **Code validation testing**
 
-SECTION CONTENT TO BE ADDED
+The code itself was validated using HTML - W3C HTML Validator and CSS - Jigsaw CSS Validator. Python code validation was completed using pycodestyles in Gitpod. Results have been outlined below
 
 **HTML code validation**
 
-SECTION CONTENT TO BE ADDED
+The code validation process in HTML - W3C HTML Validator has provided the below results.
+The validation was completed on the application's live URL. The validation has flagged some errors. Some of them such as the ones related to LI elements could not be located in the code upon manual review. The remaining errors have not been corrected due to time constraints however they do not seem to impact functionality of the application.
+
+![html1](webimages/html1.PNG)
+
+![html2](webimages/html2.PNG)
+
 
 **Python code validation**
 
