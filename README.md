@@ -683,4 +683,5 @@ The below steps describe database migration from PostgreSQL to ElephantSQL. The 
 - The theme of the application is influenced by Code Institute's walkthrough project Boutique Ado
 - Products and frontpage images were acquired from unsplash.com
 - Thank you to my mentor Daisy for continuous support and guidance.
+- Thank you to Code Institute student support team, Tutors, Project assesors and course content creators. Thank you for the opportunity of being Code Institute student. It has been an incredible journey. THANK YOU.
 
